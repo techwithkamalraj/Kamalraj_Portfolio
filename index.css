@@ -366,6 +366,12 @@ h3 {
 /* 
 //ReachOut */
 
+#submit {
+    padding: 5px;
+    color: white;
+    background-color: rgb(85, 85, 234);
+}
+
 #ReachOut {
     display: flex;
     flex-direction: column;
