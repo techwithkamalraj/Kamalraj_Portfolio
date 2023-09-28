@@ -187,16 +187,19 @@
 
     <div id="ReachOut">
         <h1 class="text-center">Contact Me</h1>
+        <form action="/submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required><br>
 
-        <br>
-        <label for=" Name">Name</label> &nbsp;
-        <input type="text" name="" id=""> &nbsp
-        <label for="text">Email</label> &nbsp;
-        <input type="email" name="" id=""> &nbsp;
-        <label for="message">Message</label> &nbsp;
-        <textarea name="" id="" cols="20" rows="5"></textarea>
-        <br>
-        <button class="submit">Submit</button>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="20" rows="5" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        </form>
     </div>
     <br>
     <br>
