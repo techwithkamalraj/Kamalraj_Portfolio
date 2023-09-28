@@ -366,7 +366,7 @@ h3 {
 /* 
 //ReachOut */
 
-#submit {
+.submit {
     padding: 5px;
     color: white;
     background-color: rgb(85, 85, 234);
